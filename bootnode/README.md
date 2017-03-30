@@ -1,5 +1,9 @@
 # BOOTNODE
 
+## Init de la Blockchain privée
+
+    geth --datadir datadir init genesis.json
+
 ## Lancement de Geth
 
     geth --datadir datadir --networkid 100 console
