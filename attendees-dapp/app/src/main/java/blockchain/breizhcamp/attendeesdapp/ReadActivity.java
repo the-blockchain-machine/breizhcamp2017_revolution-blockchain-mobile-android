@@ -1,5 +1,6 @@
 package blockchain.breizhcamp.attendeesdapp;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -20,6 +21,7 @@ public class ReadActivity extends AppCompatActivity implements EthereumService.E
     ProgressBar progressBar;
     MyApplication application;
     TextView lastMsgView;
+    MediaPlayer player;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +36,9 @@ public class ReadActivity extends AppCompatActivity implements EthereumService.E
         progressBar.setVisibility(ProgressBar.VISIBLE);
 
         lastMsgView = (TextView) findViewById(R.id.last_message_view);
+        player = MediaPlayer.create(this,R.raw.alert);
 
     }
-
-
 
     @Override
     public void onEthereumServiceReady() {
@@ -52,8 +53,11 @@ public class ReadActivity extends AppCompatActivity implements EthereumService.E
                     .flatMap(block -> Observable.from(block.transactions))
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(transaction -> {
-                        Log.d(ReadActivity.class.getSimpleName(), transaction.toString());
-                        lastMsgView.setText(SolidityUtils.hexToAscii(transaction.input));
+                        if( transaction.input != null && transaction.input.length() > 2) { // No input is '0x'
+                            Log.d(ReadActivity.class.getSimpleName(), "CONTENT : "+transaction.input);
+                            lastMsgView.setText(SolidityUtils.hexToAscii(transaction.input));
+                            player.start();
+                        }
                     });
 
     }

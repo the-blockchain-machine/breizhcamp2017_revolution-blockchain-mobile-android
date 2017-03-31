@@ -1,5 +1,7 @@
 package blockchain.breizhcamp.attendeesdapp;
 
+import android.util.Log;
+
 import com.sqli.blockchain.android_geth.EthereumApplication;
 
 import ethereumjava.EthereumJava;
@@ -20,8 +22,11 @@ public class MyApplication extends EthereumApplication {
                 .build();
 
         for(String peer : Constants.BOOTNODES_ID){
-            ethereumjava.admin.addPeer(peer);
+            boolean added = ethereumjava.admin.addPeer(peer);
+            Log.d(MyApplication.class.getSimpleName(),"PEER : "+added);
         }
+
+        Log.d(MyApplication.class.getSimpleName(),"ENODE : "+ethereumjava.admin.nodeInfo().enode);
 
         super.onEthereumServiceReady();
     }
