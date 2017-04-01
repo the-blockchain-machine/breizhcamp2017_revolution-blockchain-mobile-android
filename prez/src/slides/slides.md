@@ -2,6 +2,9 @@ class: center, middle
 
 # Smartphone et Blockchain,
 # armes de révolution massive
+<i class="fa fa-mobile fa-5x"></i> + 
+<i class="fa fa-link fa-5x"></i> = 
+<i class="fa fa-bomb fa-5x"></i>
 
 ---
 
