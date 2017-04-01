@@ -1,16 +1,86 @@
 class: center, middle
 
-# Smartphone et Blockchain
-# Armes de révolution massive
+# Smartphone et Blockchain,
+# armes de révolution massive
 
 ---
 
-# Agenda
+# Guillaume & Damien
 
-1. Introduction
-2. Deep-dive
-3. ...
+- Guillaume : Lead dev Ethereum-Android
+- Damien : Blockchain44 meetup leader | Blockchain evangelist
 
 ---
 
-# Introduction
+# Blockchain ?
+
+TODO : développer
+
+---
+
+# Ethereum
+
+TODO : image Ethereum seule
+
+---
+
+# Dapp / Distributed Application
+
+---
+
+# Clients Ethereum
+
+- Cpp
+- Geth
+- Parity
+- Ethereum-Java
+- ...
+
+
+---
+
+# Anatomie d'une Dapp Android
+
+---
+
+# Ethereum-Android ?
+
+--
+- Pilote le noeud Geth embarqué
+ - Geth 1.4
+ - Geth 1.5 en cours, mais des freins
+--
+
+- Orienté flux/stream<br/>RxJava
+--
+
+- Compatible syntaxe Java8
+
+---
+class: center, middle
+
+# Démo
+
+---
+
+# Architecture de la démo
+
+![archi demo](img/archi_demo.jpg)
+
+---
+class: center, middle
+
+# Wifi "blockchain"
+
+---
+class: center, middle
+
+# Installer application mobile
+# QR-CODE
+# URL
+# TODO : parler de l'activation des sources inconnues
+
+---
+class: center, middle
+
+# Activer le son de votre smartphone + lever la main quand message reçu
