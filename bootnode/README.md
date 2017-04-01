@@ -4,16 +4,13 @@
 
     geth --datadir datadir init genesis.json
 
+## Creation d'un compte si nécessaire 
+
+    geth --datadir datadir --password <(echo -n passwd) account new
+
 ## Lancement de Geth
 
-    geth --datadir datadir --networkid 100 console
-
-## Creation d'un compte 
-
-``` 
-> personal.newAccount("passwd")
-> personal.unlockAccount(eth.coinbase,"passwd",0)
-```
+    ./startBootnode.sh
 
 ## Récupération d'ether
 
