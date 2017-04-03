@@ -8,26 +8,81 @@ class: center, middle
 
 ---
 
-# Guillaume & Damien
+# Guillaume
+## Lead dev Ethereum-Android
 
-- Guillaume : Lead dev Ethereum-Android
-- Damien : Blockchain44 meetup leader | Blockchain evangelist
+# Damien
+## Blockchain44 meetup leader
+## Blockchain evangelist
 
 ---
-
+class: center, middle
 # Blockchain ?
 
-TODO : développer
+---
+class: center, middle
+
+# Registre ...
+
+TODO : image
 
 ---
+class: center, middle
+![bitcoin nodes](img/bitcoin_nodes.jpg)
 
+# ... décentralisé
+
+---
+class: center, middle
+
+# ... immuable
+
+TODO : image des blocs qui s'enchainent
+
+---
+class: center, middle
+
+# ... sécurisé
+
+Hash, clés publiques/privées ...
+Consensus
+Mineurs
+
+---
+class: center, middle
+# Usages ?
+
+---
+class: center, middle
+# Des plateformes de confiance
+--
+
+## Pas d'intermédiaire centralisé
+--
+
+## Tout le monde partage et peut inspecter
+
+--
+## Personne ne peut contrôler
+
+
+---
+TODO : illustration des usages 
+
+---
+class: center, middle
+# Et concrètement ?
+
+---
+background-image: url(img/blockchains.png)
+class: center, middle
+
+---
 # Ethereum
 
-TODO : image Ethereum seule
-
----
-
-# Dapp / Distributed Application
+- image Ethereum
+- smartcontract
+- Dapp / Distributed Application
 
 ---
 
@@ -39,10 +94,11 @@ TODO : image Ethereum seule
 - Ethereum-Java
 - ...
 
-
 ---
 
 # Anatomie d'une Dapp Android
+
+.center[![archi dapp](img/archi_dapp.png)]
 
 ---
 
@@ -68,17 +124,18 @@ class: center, middle
 
 # Architecture de la démo
 
-![archi demo](img/archi_demo.jpg)
+.center[![:scale 50%](img/archi_demo.jpg)]
 
 ---
 class: center, middle
 
-# Wifi "blockchain"
+# Connectez-vous sur le wifi
+# "blockchain"
 
 ---
 class: center, middle
 
-# Installer application mobile
+# Installez l'application Android de démo
 # QR-CODE
 # URL
 # TODO : parler de l'activation des sources inconnues
@@ -86,4 +143,18 @@ class: center, middle
 ---
 class: center, middle
 
-# Activer le son de votre smartphone + lever la main quand message reçu
+# Activez le son de votre smartphone
+# Levez la main quand message reçu
+
+---
+class: center, middle
+
+# DIP
+## Demo In Progress
+
+---
+class: center, middle
+
+# Merci !
+
+# Q & R
