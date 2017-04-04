@@ -1,1 +1,8 @@
-/datadir/
+/node1/geth/chaindata
+/node1/geth/nodes
+/node1/history
+
+/node2/geth/chaindata
+/node2/geth/nodes
+/node2/history
+

@@ -33,12 +33,16 @@ public class MyApplication extends EthereumApplication {
         Log.d(LOG_ID,"ENODE : "+ethereumjava.admin.nodeInfo().enode);
 
         List<String> accounts = ethereumjava.personal.listAccounts();
+        String account;
         if( accounts.size() == 0 ) {
             String accountId = ethereumjava.personal.newAccount("PASSWD");
-            Log.d(LOG_ID,"ACCOUNT : "+accountId);
+            account = accountId;
         } else{
-            Log.d(LOG_ID,"ACCOUNT : "+accounts.get(0));
+            account = accounts.get(0);
         }
+        Log.d(LOG_ID,"ACCOUNT : "+account);
+
+        ethereumjava.personal.unlockAccount(account,"PASSWD",0);
 
         super.onEthereumServiceReady();
     }

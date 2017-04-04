@@ -41,6 +41,12 @@ public class ReadActivity extends AppCompatActivity implements EthereumService.E
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        progressBar.setVisibility(ProgressBar.INVISIBLE);
+    }
+
+    @Override
     public void onEthereumServiceReady() {
 
             Observable.just(true)

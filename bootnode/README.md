@@ -2,25 +2,26 @@
 
 ## Init de la Blockchain privée
 
-    geth --datadir datadir init genesis.json
+    ./initBootnode.sh
 
-## Creation d'un compte si nécessaire 
+## Lancement des 2 noeuds (2 fenêtres différentes) 
 
-    geth --datadir datadir --password <(echo -n passwd) account new
+    ./startNode1.sh
+    ./startNode2.sh
 
-## Lancement de Geth
+## Synchronisation des noeuds
 
-    ./startBootnode.sh
+    ./addPeer.sh
 
-## Récupération d'ether
+## Récupérer l'id des noeuds puis coller dans les dapp (Constants.java)
 
-```
-> miner.start();admin.sleepBlocks(5);miner.stop();
-```
+    ./getNodeId.sh
 
-## Chargement du script de minage automatique
-    loadScript('mine.js')
+## Crédit du compte du speaker
+    
+    Copier l'identifiant depuis la console android
+    ./sendMoney.sh 0x....
 
-## Envoi d'un message depuis la console
+## Envoi d'un message (exemple)
 
     > eth.sendTransaction({from:eth.coinbase,to:eth.coinbase,data:web3.toHex('hello world')}) ```
