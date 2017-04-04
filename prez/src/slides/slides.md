@@ -96,6 +96,12 @@ class: center, middle
 
 ---
 
+# Comparaison
+
+.center[![archi dapp](img/client_comparison.png)
+
+---
+
 # Anatomie d'une Dapp Android
 
 .center[![archi dapp](img/archi_dapp.png)]
