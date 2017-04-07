@@ -79,7 +79,11 @@ class: center, middle
 
 ---
 # Ethereum
-
+.center[
+![:scale 20%](img/ethereum.png)
+![:scale 20%](img/smart_contract.jpg)
+![:scale 20%](img/smart_contract.jpg)
+]
 - image Ethereum
 - smartcontract
 - Dapp / Distributed Application
@@ -98,7 +102,7 @@ class: center, middle
 
 # Comparaison
 
-.center[![archi dapp](img/client_comparison.png)
+.center[![archi dapp](img/client_comparison.png)]
 
 ---
 
