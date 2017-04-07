@@ -47,4 +47,8 @@ public class MyApplication extends EthereumApplication {
         super.onEthereumServiceReady();
     }
 
+    @Override
+    protected boolean isResetDatadir() {
+        return true;
+    }
 }
