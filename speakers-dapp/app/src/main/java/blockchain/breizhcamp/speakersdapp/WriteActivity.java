@@ -53,6 +53,7 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
 
     private void sendButtonClicked(){
         if( sendMessageButton.isIndeterminateProgressMode() ){
+            sendMessageButton.setIndeterminateProgressMode(false);
             sendMessageButton.setProgress(IDLE_STATE);
             //TODO Remove
         } else {
