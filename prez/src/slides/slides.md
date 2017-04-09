@@ -9,11 +9,14 @@ class: center, middle
 ---
 
 # Guillaume
+## Développeur de DApp Ethereum
 ## Lead dev Ethereum-Android
+## @GuiillaumeN
 
 # Damien
 ## Blockchain44 meetup leader
 ## Blockchain evangelist
+## @dlecan
 
 ---
 class: center, middle
@@ -70,71 +73,44 @@ class: center, middle
 TODO : illustration des usages 
 
 ---
-class: center, middle
 # Et concrètement ?
 
----
-background-image: url(img/blockchains.png)
-class: center, middle
+.center[![:scale 98%](img/blockchains.png)]
 
 ---
 # Ethereum
-.center[
-![:scale 20%](img/ethereum.png)
-![:scale 20%](img/smart_contract.jpg)
-![:scale 20%](img/smart_contract.jpg)
-]
-- image Ethereum
-- smartcontract
-- Dapp / Distributed Application
+
+.center[![:scale 90%](img/slide_ethereum.png)]
 
 ---
 
-# Clients Ethereum
+# Smart-Contract
 
-- Cpp
-- Geth
-- Parity
-- Ethereum-Java
-- ...
-
----
-
-# Comparaison
-
-.center[![archi dapp](img/client_comparison.png)]
+.center[![:scale 90%](img/slide_SC.png)]
 
 ---
 
 # Anatomie d'une Dapp Android
 
-.center[![archi dapp](img/archi_dapp.png)]
+.center[![:scale 90%](img/slide_dapp.png)]
 
 ---
 
 # Ethereum-Android ?
 
---
-- Pilote le noeud Geth embarqué
- - Geth 1.4
- - Geth 1.5 en cours, mais des freins
---
-
-- Orienté flux/stream<br/>RxJava
---
-
-- Compatible syntaxe Java8
+.center[![:scale 90%](img/slide_librairie.png)]
 
 ---
-class: center, middle
 
 # Démo
+
+.center[![:scale 90%](img/slide_demo_overview.png)]
 
 ---
 
 # Architecture de la démo
 
-.center[![:scale 50%](img/archi_demo.jpg)]
+.center[![:scale 90%](img/slide_demo_archi.png)]
 
 ---
 class: center, middle
