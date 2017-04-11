@@ -98,7 +98,7 @@ TODO : illustration des usages
 
 # Ethereum-Android ?
 
-.center[![:scale 90%](img/slide_librairie_v2.png)]
+.center[![:scale 90%](img/slide_librairie_v3.png)]
 
 ---
 
