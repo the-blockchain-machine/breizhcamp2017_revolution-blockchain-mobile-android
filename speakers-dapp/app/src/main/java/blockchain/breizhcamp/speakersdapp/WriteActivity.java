@@ -42,6 +42,10 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
         progressBar.setIndeterminate(true);
         progressBar.setVisibility(ProgressBar.VISIBLE);
 
+        progressBar.getIndeterminateDrawable().setColorFilter(
+                getResources().getColor(R.color.colorPrimary),
+                android.graphics.PorterDuff.Mode.SRC_IN);
+
         sendMessageButton = (CircularProgressButton) findViewById(R.id.send_message_button);
         sendMessageButton.setEnabled(false);
         sendMessageButton.setOnClickListener(v -> sendButtonClicked());
@@ -52,30 +56,24 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
     }
 
     private void sendButtonClicked(){
-        if( sendMessageButton.isIndeterminateProgressMode() ){
-            sendMessageButton.setIndeterminateProgressMode(false);
-            sendMessageButton.setProgress(IDLE_STATE);
-            //TODO Remove
-        } else {
-            switch (sendMessageButton.getProgress()) {
-                case ERROR_STATE:
-                    sendMessageButton.setProgress(IDLE_STATE);
-                    break;
-                case IDLE_STATE:
-                    try {
-                        sendMessage(messageEdittext.getText().toString());
-                    }catch(EthereumJavaException e){
-                        sendMessageButton.setProgress(-1);
-                        Log.e(LOG_ID,e.getMessage());
-                    }
-                    sendMessageButton.setIndeterminateProgressMode(true);
-                    break;
-                case COMPLETE_STATE:
-                    sendMessageButton.setProgress(IDLE_STATE);
-                    break;
-                default:
-                    break;
-            }
+        switch (sendMessageButton.getProgress()) {
+            case ERROR_STATE:
+                sendMessageButton.setProgress(IDLE_STATE);
+                break;
+            case IDLE_STATE:
+                try {
+                    sendMessage(messageEdittext.getText().toString());
+                }catch(EthereumJavaException e){
+                    sendMessageButton.setProgress(-1);
+                    Log.e(LOG_ID,e.getMessage());
+                }
+                sendMessageButton.setProgress(COMPLETE_STATE);
+                break;
+            case COMPLETE_STATE:
+                sendMessageButton.setProgress(IDLE_STATE);
+                break;
+            default:
+                break;
         }
     }
 

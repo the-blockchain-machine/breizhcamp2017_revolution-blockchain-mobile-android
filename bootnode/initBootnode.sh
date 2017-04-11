@@ -22,17 +22,17 @@ geth \
     --datadir node2 \
     init genesis.json
 
-echo '###############'
-echo "## Geth warmup ##"
-echo '###############'
-geth \
-    --datadir node1 \
-    --ipcdisable \
-    js ./noop.js
+# echo '###############'
+# echo "## Geth warmup ##"
+# echo '###############'
+# geth \
+#     --datadir node1 \
+#     --ipcdisable \
+#     js ./noop.js
 
-geth \
-    --datadir node2 \
-    --ipcdisable \
-    js ./noop.js
+# geth \
+#     --datadir node2 \
+#     --ipcdisable \
+#     js ./noop.js
 
 
