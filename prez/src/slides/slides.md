@@ -1,3 +1,24 @@
+class: center, middle
+
+.pull-left[
+# 1
+## Installez l'application Android
+
+![qr-code](img/qr-code.png)
+
+## https://bit.ly/F5Hf3d1
+]
+
+.pull-right[
+# 2
+## Connectez-vous sur le wifi
+
+<i class="fa fa-wifi fa-5x"></i>
+
+# .red["BLOCKCHAIN-AP"]
+]
+
+---
 class: center, middle, bg-black, white
 
 # Smartphone et Blockchain,
@@ -24,7 +45,7 @@ class: center, middle, bg-black, white
 # Damien Lecan
 ## Blockchain evangelist
 ## Leader du meetup <a href="https://twitter.com/Blockchain44">@Blockchain44</a>
-## <i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/dlecan">@dlecan</a>
+## <i class="fa fa-twitter fa-fw"></i> <a class="twitter" href="https://twitter.com/dlecan">@dlecan</a>
 ]
 
 <br/>
@@ -98,55 +119,42 @@ class: middle
 ---
 # Ethereum
 
-.center[![:scale 85%](img/slide_ethereum.png)]
+.center[![:scale 95%](img/slide_ethereum.png)]
 
 ---
 
 # Smart-Contract
 
-.center[![:scale 90%](img/slide_SC.png)]
+.center[![:scale 100%](img/slide_SC.png)]
 
 ---
 
 # Anatomie d'une Dapp Android
 
-.center[![:scale 90%](img/slide_dapp.png)]
+.center[![:scale 100%](img/slide_dapp.png)]
 
 ---
 
 # Ethereum-Android ?
 
-.center[![:scale 83%](img/slide_librairie_v3.png)]
+.center[![:scale 100%](img/slide_librairie_v3.png)]
 
 ---
 
 # Démo
 
-.center[![:scale 87%](img/slide_demo_overview.png)]
+.center[![:scale 100%](img/slide_demo_overview.png)]
 
 ---
 
 # Architecture de la démo
 
-.center[![:scale 90%](img/slide_demo_archi.png)]
+.center[![:scale 100%](img/slide_demo_archi.png)]
 
 ---
 class: center, middle
 
-# Connectez-vous sur le wifi
-# "BLOCKCHAIN-AP"
-# MDP : "blockchain"
-
----
-class: center, middle
-
-# Installez l'application Android de démo
-# QR-CODE
-# URL
-# TODO : parler de l'activation des sources inconnues
-
----
-class: center, middle
+# Démo !
 
 # Activez le son de votre smartphone
 # Levez la main quand message reçu
@@ -156,6 +164,7 @@ class: center, middle
 
 # DIP
 ## Demo In Progress
+## ...
 
 ---
 class: center, middle

@@ -10,7 +10,7 @@ var slideShow = remark.create({
   // Set the slideshow display ratio
   // Default: '4:3'
   // Alternatives: '16:9', ...
-  ratio: '16:9',
+  ratio: '4:3',
 
   // Navigation options
   navigation: {
