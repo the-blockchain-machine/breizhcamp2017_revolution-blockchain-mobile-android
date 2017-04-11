@@ -134,7 +134,8 @@ class: middle
 class: center, middle
 
 # Connectez-vous sur le wifi
-# "blockchain"
+# "BLOCKCHAIN-AP"
+# MDP : "blockchain"
 
 ---
 class: center, middle
