@@ -52,8 +52,10 @@ Consensus
 Mineurs
 
 ---
-class: center, middle
+
 # Usages ?
+
+.center[![:scale 98%](img/slide_use_case.png)]
 
 ---
 class: center, middle
