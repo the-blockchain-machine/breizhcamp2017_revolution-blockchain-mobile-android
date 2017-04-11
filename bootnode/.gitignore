@@ -1,2 +1,4 @@
-/node1
-/node2
+node*/geth/LOCK
+node*/geth/chaindata
+node*/geth/nodes/
+node*/history

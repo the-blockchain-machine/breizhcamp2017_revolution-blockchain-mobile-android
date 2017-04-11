@@ -3,7 +3,13 @@
 echo '################'
 echo '## clean dirs ##'
 echo '################'
-rm -rf node1 node2
+for i in `seq 1 2`;
+do
+    rm -rf node$i/geth/LOCK
+    rm -rf node$i/geth/chaindata
+    rm -rf node$i/geth/nodes/
+    rm -rf node$i/history
+done
 
 echo '################'
 echo "## Init nodes ##"
@@ -16,26 +22,17 @@ geth \
     --datadir node2 \
     init genesis.json
 
-echo '#################################'
-echo "## Create account on each node ##"
-echo '#################################'
-geth \
-    --datadir node1 \
-    --password <(echo -n passwd) \
-    account new
-
-geth \
-    --datadir node2 \
-    --password <(echo -n passwd) \
-    account new
-
 echo '###############'
-echo "## Get money ##"
+echo "## Geth warmup ##"
 echo '###############'
 geth \
     --datadir node1 \
     --ipcdisable \
-    js ./getMoney.js
+    js ./noop.js
 
+geth \
+    --datadir node2 \
+    --ipcdisable \
+    js ./noop.js
 
 
