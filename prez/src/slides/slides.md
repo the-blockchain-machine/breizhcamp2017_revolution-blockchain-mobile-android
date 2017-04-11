@@ -1,25 +1,40 @@
-class: center, middle
+class: center, middle, bg-black, white
 
 # Smartphone et Blockchain,
 # armes de révolution massive
-<i class="fa fa-mobile fa-5x"></i> + 
-<i class="fa fa-link fa-5x"></i> = 
-<i class="fa fa-bomb fa-5x"></i>
+<br/>
+<br/>
+<i class="fa fa-mobile fa-5x"></i>
+<span class="fa-5x">&nbsp;+&nbsp;</span> 
+<i class="fa fa-link fa-5x"></i>
+<span class="fa-5x">&nbsp;=&nbsp;</span> 
+<i class="fa fa-bomb fa-5x red"></i>
 
 ---
+class: center, middle, bg-black, white
 
-# Guillaume
+.pull-left[
+# Guillaume Nicolas
 ## Développeur de DApp Ethereum
 ## Lead dev Ethereum-Android
-## @GuiillaumeN
+## <i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/GuiillaumeN">@GuiillaumeN</a>
+]
 
-# Damien
-## Blockchain44 meetup leader
+.pull-right[
+# Damien Lecan
 ## Blockchain evangelist
-## @dlecan
+## Leader du meetup <a href="https://twitter.com/Blockchain44">@Blockchain44</a>
+## <i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/dlecan">@dlecan</a>
+]
+
+<br/>
+
+Our work
+<br/>
+![:scale 10%](img/sqli.png)
 
 ---
-class: center, middle
+class: center, middle, bg-black, red
 # Blockchain ?
 
 ---
@@ -27,62 +42,63 @@ class: center, middle
 
 # Registre ...
 
-TODO : image
+![:scale 50%](img/ledger.jpg)
 
 ---
 class: center, middle
-![bitcoin nodes](img/bitcoin_nodes.jpg)
 
 # ... décentralisé
+
+![bitcoin nodes](img/bitcoin_nodes.jpg)
 
 ---
 class: center, middle
 
 # ... immuable
 
-TODO : image des blocs qui s'enchainent
+<i class="fa fa-link fa-5x x-large"></i>
 
 ---
 class: center, middle
 
 # ... sécurisé
+## <i class="fa fa-lock fa-2x"></i> &nbsp;Hash, clés publiques/privées
+## <i class="fa fa-cogs fa-2x"></i> &nbsp;Preuve de validation et concensus
 
-Hash, clés publiques/privées ...
-Consensus
-Mineurs
 
 ---
-
+class: center, middle, bg-black, red
 # Usages ?
 
-.center[![:scale 98%](img/slide_use_case.png)]
-
 ---
-class: center, middle
-# Des plateformes de confiance
+class: center, middle, white, bg-black
+# Construire des plateformes de confiance
 --
 
-## Pas d'intermédiaire centralisé
+## Sans intermédiaire centralisé
 --
 
-## Tout le monde partage et peut inspecter
+## Où tout le monde partage et peut inspecter
 
 --
-## Personne ne peut contrôler
-
-
----
-TODO : illustration des usages 
+## Que personne ne peut contrôler
 
 ---
+class: middle, center
+![:scale 98%](img/slide_use_case.png)
+
+---
+class: middle
 # Et concrètement ?
+
+<br/>
 
 .center[![:scale 98%](img/blockchains.png)]
 
 ---
 # Ethereum
 
-.center[![:scale 90%](img/slide_ethereum.png)]
+.center[![:scale 85%](img/slide_ethereum.png)]
 
 ---
 
@@ -100,13 +116,13 @@ TODO : illustration des usages
 
 # Ethereum-Android ?
 
-.center[![:scale 90%](img/slide_librairie_v3.png)]
+.center[![:scale 83%](img/slide_librairie_v3.png)]
 
 ---
 
 # Démo
 
-.center[![:scale 90%](img/slide_demo_overview.png)]
+.center[![:scale 87%](img/slide_demo_overview.png)]
 
 ---
 
@@ -146,3 +162,5 @@ class: center, middle
 # Merci !
 
 # Q & R
+
+.footnote.left[Built with [remark](https://github.com/gnab/remark/)]
