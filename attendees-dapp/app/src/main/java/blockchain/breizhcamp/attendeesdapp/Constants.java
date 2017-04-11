@@ -6,8 +6,8 @@ package blockchain.breizhcamp.attendeesdapp;
 
 public abstract class Constants {
 
-    private static final String ID1 = "4f38b844103e2274b332aa3a5eccd15841e531452d248f871751b9369551dde27f2652a43b491d3e6a589d7ca27e8fe8a9679484bd02456d24326f2bc91a733f";
-    private static final String ID2 = "0b30210acab454a637b340610c4cd491add27a5c7aba8fcb7153e411d27a03fed99fc77413c1d2345fc6f087353b54f576d5838283cfa3e433d3729221f2c244";
+    private static final String ID1 = "e6847cc3eabba1b9c4b0c4663067a839f2387e6252c482f49ea991da28822a2b7de926b86ab9ffd0847da72367f8642d6f87d68f407110bad6210ef6c86dc318";
+    private static final String ID2 = "3c979e5dec51a4fa66d256b7c5fe2c15d295b57221a7289fab2f6abe61a10a79d6e8389108e8baddf631f2d3a77e5e262c94ebcf2d705c0666cda5de14d01017";
 
     public static final String[] BOOTNODES_ID = new String[]{
         "enode://"+ID1+"@192.168.0.10:30303",
