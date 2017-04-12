@@ -169,15 +169,21 @@ class: center, middle
 
 # Démo !
 
-# Activez le son de votre smartphone
-# Levez la main quand message reçu
+.pull-left[
+# <i class="fa fa-volume-up fa-2x green"></i>
+## Activez le son de votre smartphone
+]
+
+.pull-right[
+# <i class="fa fa-hand-paper-o fa-2x green"></i>
+## Levez la main quand message reçu
+]
 
 ---
 class: center, middle
 
-# DIP
-## Demo In Progress
-## ...
+# DIP...
+### (Demo In Progress...)
 
 ---
 class: center, middle

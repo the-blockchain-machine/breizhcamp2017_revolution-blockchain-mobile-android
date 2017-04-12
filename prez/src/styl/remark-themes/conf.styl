@@ -14,10 +14,15 @@
 .orange { color: #f79c37; }
 .bg-yellow { background-color: #F7F41E; }
 .bg-red    { background-color: #FF4943; }
-.bg-black, .dlecan    { background-color: black; }
+.bg-black {
+  background-image: radial-gradient(circle, #595959 0%, black 100%);
+}
 .bg-blue { background-color: #15aaff; }
 .bg-orange { background-color: #f79c37; }
 .bg-gray { background-color: #787878; }
+.bg-white {
+  background-image: radial-gradient(circle, #d9d9d9 0%, white 100%);
+}
 .blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -56,3 +61,20 @@
   font-size: 120%;
 }
 
+.loading
+  margin-right: 70px
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 20px;
+  }
+}
