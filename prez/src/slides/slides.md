@@ -6,7 +6,7 @@ class: center, middle
 
 ![qr-code](img/qr-code.png)
 
-## https://bit.ly/F5Hf3d1
+## https://goo.gl/9aLVaU
 ]
 
 .pull-right[
