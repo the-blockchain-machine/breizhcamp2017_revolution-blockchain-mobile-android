@@ -165,7 +165,7 @@ class: middle
 .center[![:scale 100%](img/slide_demo_archi.png)]
 
 ---
-class: center, middle
+class: center, middle, bg-black, white
 
 # Démo !
 
@@ -180,15 +180,15 @@ class: center, middle
 ]
 
 ---
-class: center, middle
+class: center, middle, bg-black, white
 
-# DIP...
+# .red[DIP...]
 ### (Demo In Progress...)
 
 ---
-class: center, middle
+class: center, middle, bg-black, white
 
-# Merci !
+# .blue[Merci !]
 
 # Q & R
 
