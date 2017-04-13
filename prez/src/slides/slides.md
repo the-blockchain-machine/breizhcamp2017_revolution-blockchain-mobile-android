@@ -21,15 +21,26 @@ class: center, middle
 ---
 class: center, middle, bg-black, white
 
-# Smartphone et Blockchain,
-# armes de révolution massive
-<br/>
-<br/>
 <i class="fa fa-mobile fa-5x"></i>
 <span class="fa-5x">&nbsp;+&nbsp;</span> 
 <i class="fa fa-link fa-5x"></i>
 <span class="fa-5x">&nbsp;=&nbsp;</span> 
 <i class="fa fa-bomb fa-5x red"></i>
+## Smartphone et Blockchain, armes de révolution massive
+
+
+<a href="https://twitter.com/GuiillaumeN">@GuiillaumeN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="twitter" href="https://twitter.com/dlecan">@dlecan</a>
+
+<br/>
+<br/>
+<br/>
+
+.pull-left[![:scale 80%](img/logo-bzhcamp.png)]
+
+.pull-right[
+##&sharp;breizhcamp
+]
 
 ---
 class: center, middle, bg-black, white
