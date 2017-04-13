@@ -46,22 +46,24 @@ class: center, middle, bg-black, white
 class: center, middle, bg-black, white
 
 .pull-left[
-# Guillaume Nicolas
-## Développeur de DApp Ethereum
-## Lead dev Ethereum-Android
-## <i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/GuiillaumeN">@GuiillaumeN</a>
+## .red[Guillaume Nicolas]
+### Développeur de DApp Ethereum
+### Lead dev Ethereum-Android
+### <i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/GuiillaumeN">@GuiillaumeN</a>
 ]
 
 .pull-right[
-# Damien Lecan
-## Blockchain evangelist
-## Leader du meetup <a href="https://twitter.com/Blockchain44">@Blockchain44</a>
-## <i class="fa fa-twitter fa-fw"></i> <a class="twitter" href="https://twitter.com/dlecan">@dlecan</a>
+## .red[Damien Lecan]
+### Blockchain evangelist
+### Leader du meetup <a href="https://twitter.com/Blockchain44">@Blockchain44</a>
+### <i class="fa fa-twitter fa-fw"></i> <a class="twitter" href="https://twitter.com/dlecan">@dlecan</a>
 ]
 
 <br/>
+<br/>
+<br/>
 
-Our work
+We work at
 <br/>
 ![:scale 10%](img/sqli.png)
 
