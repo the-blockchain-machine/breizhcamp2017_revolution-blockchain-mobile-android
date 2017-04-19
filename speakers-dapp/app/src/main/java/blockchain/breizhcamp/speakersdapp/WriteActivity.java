@@ -61,12 +61,7 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
                 sendMessageButton.setProgress(IDLE_STATE);
                 break;
             case IDLE_STATE:
-                try {
-                    sendMessage(messageEdittext.getText().toString());
-                }catch(EthereumJavaException e){
-                    sendMessageButton.setProgress(-1);
-                    Log.e(LOG_ID,e.getMessage());
-                }
+                sendMessage(messageEdittext.getText().toString());
                 sendMessageButton.setProgress(COMPLETE_STATE);
                 break;
             case COMPLETE_STATE:
