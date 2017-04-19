@@ -13,10 +13,6 @@
 
     ./addPeer.sh
 
-## Récupérer l'id des noeuds puis coller dans les dapp (Constants.java)
-
-    ./getNodeId.sh
-
 ## Crédit du compte du speaker
     
     Copier l'identifiant depuis la console android
