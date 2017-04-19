@@ -130,39 +130,45 @@ class: middle
 .center[![:scale 98%](img/blockchains.png)]
 
 ---
-# Ethereum
+# Focus sur Ethereum
 
-.center[![:scale 95%](img/slide_ethereum.png)]
-
----
-
-# Smart-Contract
-
-.center[![:scale 100%](img/slide_SC.png)]
+.center[![:scale 105%](img/slide_ethereum.png)]
 
 ---
 
-# Anatomie d'une Dapp Android
+# Smart-Contract, Kézako ?
 
-.center[![:scale 100%](img/slide_dapp.png)]
-
----
-
-# Ethereum-Android ?
-
-.center[![:scale 100%](img/slide_librairie_v3.png)]
+.center[![:scale 105%](img/slide_SC.png)]
 
 ---
 
-# Démo
+# Finalement une ÐApp c'est ...
 
-.center[![:scale 100%](img/slide_demo_overview.png)]
+.center[![:scale 66%](img/slide_dapp_1.png)]
+
+---
+
+# Une blockchain dans un smartphone, oh really  ?!
+
+.center[![:scale 100%](img/slide_dapp_2.png)]
+
+---
+
+# Ethereum-Android vous facilite la vie !
+
+.center[![:scale 100%](img/slide_librairie_v4.png)]
+
+---
+
+# Alerter via la blockchain
+
+.center[![:scale 110%](img/slide_demo_overview.png)]
 
 ---
 
 # Architecture de la démo
 
-.center[![:scale 100%](img/slide_demo_archi.png)]
+.center[![:scale 110%](img/slide_demo_archi.png)]
 
 ---
 class: center, middle, bg-black, white
