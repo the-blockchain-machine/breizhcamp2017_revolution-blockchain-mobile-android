@@ -154,7 +154,7 @@ class: middle
 
 ---
 
-# Ethereum-Android vous facilite la vie !
+# .s-small[Ethereum-Android vous facilite la vie !]
 
 .center[![:scale 100%](img/slide_librairie_v4.png)]
 
