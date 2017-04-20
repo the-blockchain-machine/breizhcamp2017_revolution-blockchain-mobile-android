@@ -99,6 +99,13 @@ class: center, middle
 ## <i class="fa fa-lock fa-2x green"></i> &nbsp;Hash, clés publiques/privées
 ## <i class="fa fa-cogs fa-2x green"></i> &nbsp;Preuve de validation et concensus
 
+---
+class: center, middle
+
+# ... au-delà de la finance
+## Les smart-contracts
+
+![:scale 105%](img/slide_SC.png)
 
 ---
 class: center, middle, bg-black, red
@@ -122,33 +129,30 @@ class: middle, center
 ![:scale 98%](img/slide_use_case.png)
 
 ---
+
+# Usages portés par des ÐApp
+
+.center[![:scale 66%](img/slide_dapp_1.png)]
+
+---
 class: middle
 # Et concrètement ?
+
+--
 
 <br/>
 
 .center[![:scale 98%](img/blockchains.png)]
 
 ---
+
 # Focus sur Ethereum
 
 .center[![:scale 105%](img/slide_ethereum.png)]
 
 ---
 
-# Smart-Contract, Kézako ?
-
-.center[![:scale 105%](img/slide_SC.png)]
-
----
-
-# Finalement une ÐApp c'est ...
-
-.center[![:scale 66%](img/slide_dapp_1.png)]
-
----
-
-# Une blockchain dans un smartphone, oh really  ?!
+# .s-small[Une blockchain dans un smartphone, oh really ?!]
 
 .center[![:scale 100%](img/slide_dapp_2.png)]
 
@@ -170,6 +174,13 @@ class: middle
 
 .center[![:scale 110%](img/slide_demo_archi.png)]
 
+
+---
+class: center, middle, bg-black, white
+
+# .red[CIP...]
+### (Coding In Progress...)
+
 ---
 class: center, middle, bg-black, white
 
@@ -186,10 +197,19 @@ class: center, middle, bg-black, white
 ]
 
 ---
-class: center, middle, bg-black, white
+class: bg-black, white, middle
 
-# .red[DIP...]
-### (Demo In Progress...)
+# .red[En résumé, une Ðapp Android]
+
+## <i class="fa fa-arrow-right gray"></i> Installer les dépendances depuis<br/>https://github.com/sqli-nantes/ethereum-android
+
+## <i class="fa fa-arrow-right gray"></i> Démarrer le noeud Geth
+
+## <i class="fa fa-arrow-right gray"></i> Ajouter les peers si Blockchain privée
+
+## <i class="fa fa-arrow-right gray"></i> Gérer les comptes
+
+## <i class="fa fa-arrow-right gray"></i> Interagir avec la Blockchain au travers de l'API Ethereum-Android
 
 ---
 class: center, middle, bg-black, white
