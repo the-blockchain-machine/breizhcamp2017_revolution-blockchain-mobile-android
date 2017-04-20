@@ -17,6 +17,7 @@ module.exports = gulp.task('stylus', function() {
   return gulp.src(paths.source.files.styl)
     .pipe(plumber())
     .pipe(stylus({
+      'include css': false,
       compress: false,
       use: [
         poststylus(processors)
