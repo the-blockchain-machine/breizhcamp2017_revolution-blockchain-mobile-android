@@ -88,16 +88,16 @@ class: center, middle
 ---
 class: center, middle
 
-# ... immuable
+# ... immuable <i class="fa fa-link green"></i>
 
-<i class="fa fa-link fa-5x x-large"></i>
+![:scale 100%](img/blockchain.png)
 
 ---
 class: center, middle
 
 # ... sécurisé
-## <i class="fa fa-lock fa-2x"></i> &nbsp;Hash, clés publiques/privées
-## <i class="fa fa-cogs fa-2x"></i> &nbsp;Preuve de validation et concensus
+## <i class="fa fa-lock fa-2x green"></i> &nbsp;Hash, clés publiques/privées
+## <i class="fa fa-cogs fa-2x green"></i> &nbsp;Preuve de validation et concensus
 
 
 ---
