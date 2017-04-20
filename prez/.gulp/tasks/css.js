@@ -7,10 +7,7 @@ var paths        = require('../paths');
 
 // Call Stylus
 module.exports = gulp.task('css', function() {
-  var processors = [
-    autoprefixer
-  ];
-  return gulp.src(paths.source.styl)
+  return gulp.src(paths.source.css)
     .pipe(plumber())
     .pipe(gulp.dest(paths.build.css));
 });
