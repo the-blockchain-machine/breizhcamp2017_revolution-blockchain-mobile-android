@@ -26,7 +26,7 @@ class: center, middle, bg-black, white
 <i class="fa fa-link fa-5x"></i>
 <span class="fa-5x">&nbsp;=&nbsp;</span> 
 <i class="fa fa-bomb fa-5x red"></i>
-## Smartphone et Blockchain, armes de révolution massive
+# Smartphone et Blockchain,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;armes de révolution massive
 
 
 <a href="https://twitter.com/GuiillaumeN">@GuiillaumeN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,7 +39,7 @@ class: center, middle, bg-black, white
 .pull-left[![:scale 80%](img/logo-bzhcamp.png)]
 
 .pull-right[
-##&sharp;breizhcamp
+##&sharp;breizhcamp 2017
 ]
 
 ---
@@ -130,7 +130,7 @@ class: middle, center
 
 ---
 
-# Usages portés par des ÐApp
+# Usages portés par des Ðapps
 
 .center[![:scale 120%](img/slide_dapp_1.png)]
 
@@ -152,7 +152,7 @@ class: middle
 
 ---
 
-# .s-small[Une blockchain dans un smartphone, oh really ?!]
+# .m-small[Une blockchain dans un smartphone, oh really ?!]
 
 .center[![:scale 100%](img/slide_dapp_2.png)]
 
@@ -201,7 +201,7 @@ class: bg-black, white, middle
 
 # .red[En résumé, une Ðapp Android]
 
-## <i class="fa fa-arrow-right gray"></i> Installer les dépendances depuis<br/>https://github.com/sqli-nantes/ethereum-android
+## <i class="fa fa-arrow-right gray"></i> Installer les dépendances depuis<br/>[github.com/sqli-nantes/ethereum-android](https://github.com/sqli-nantes/ethereum-android)
 
 ## <i class="fa fa-arrow-right gray"></i> Démarrer le noeud Geth
 
