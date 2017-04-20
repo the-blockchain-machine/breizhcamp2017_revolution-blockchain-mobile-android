@@ -105,7 +105,7 @@ class: center, middle
 # ... au-delà de la finance
 ## Les smart-contracts
 
-![:scale 105%](img/slide_SC.png)
+![:scale 90%](img/slide_SC.png)
 
 ---
 class: center, middle, bg-black, red
@@ -132,7 +132,7 @@ class: middle, center
 
 # Usages portés par des ÐApp
 
-.center[![:scale 66%](img/slide_dapp_1.png)]
+.center[![:scale 120%](img/slide_dapp_1.png)]
 
 ---
 class: middle
