@@ -1,0 +1,1 @@
+remark.macros.scale=function(i){var a=this;return'<img src="'+a+'" style="width: '+i+'" />'};var slideShow=remark.create({ratio:"4:3",navigation:{scroll:!0,touch:!0,click:!1},slideNumberFormat:"",countIncrementalSlides:!0,highlightLanguage:"java",highlightStyle:"monokai",highlightLines:!0,highlightSpans:!0});

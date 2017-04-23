@@ -1,0 +1,258 @@
+@import "font-awesome-4.7.0/css/font-awesome.min.css";
+@import "fonts/fonts.css";
+body {
+  font-family: "Droid Serif";
+}
+h1,
+h2,
+h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: normal;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono";
+}
+body {
+  font-family: "Droid Serif";
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 0;
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 400;
+}
+.remark-slide-content h1 {
+  font-size: 3.5em;
+}
+.remark-slide-content h2 {
+  font-size: 2em;
+}
+.remark-slide-content h3 {
+  font-size: 1.6em;
+}
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+li p {
+  line-height: 1.25em;
+}
+.red {
+  color: #fa0000;
+}
+.large {
+  font-size: 2em;
+}
+a,
+a > code {
+  color: #4099ff;
+  text-decoration: none;
+}
+code {
+  border-radius: 5px;
+  background: #e7e8e2;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono";
+}
+.remark-code-line-highlighted {
+  background-color: #373832;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+#slideshow .slide .content code {
+  font-size: .8em;
+}
+#slideshow .slide .content pre code {
+  padding: 15px;
+  font-size: .9em;
+}
+.inverse {
+  color: #777872;
+  background: #272822;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1,
+.inverse h2 {
+  line-height: .8em;
+  color: #f3f3f3;
+}
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+#slide-how .slides {
+  position: absolute;
+  top: 151px;
+  right: 140px;
+  font-size: .9em;
+}
+#slide-how .slides h3 {
+  margin-top: .2em;
+}
+#slide-how .slides .first,
+#slide-how .slides .second {
+  width: 120px;
+  height: 90px;
+  padding: 1px 20px;
+  box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
+  background: #fff;
+}
+#slide-how .slides .second {
+  position: relative;
+  z-index: 0;
+  background: #fff;
+}
+.left-column {
+  float: left;
+  width: 20%;
+  height: 92%;
+  color: #777;
+}
+.left-column h2:last-of-type,
+.left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  float: right;
+  width: 75%;
+  padding-top: 1em;
+}
+.footnote {
+  position: absolute;
+  bottom: .5em;
+  font-size: 70%;
+}
+.red {
+  color: #ff4943;
+}
+.dark-gray {
+  color: #787878;
+}
+.gray {
+  color: #adadad;
+}
+.green {
+  color: #8aba3d;
+}
+.blue {
+  color: #15aaff;
+}
+.yellow {
+  color: #f7f41e;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.orange {
+  color: #f79c37;
+}
+.bg-yellow {
+  background-color: #f7f41e;
+}
+.bg-red {
+  background-color: #ff4943;
+}
+.bg-black {
+  background-image: -webkit-radial-gradient(circle, #595959 0%, #000 100%);
+  background-image:         radial-gradient(circle, #595959 0%, #000 100%);
+}
+.bg-blue {
+  background-color: #15aaff;
+}
+.bg-orange {
+  background-color: #f79c37;
+}
+.bg-gray {
+  background-color: #787878;
+}
+.bg-white {
+  background-image: -webkit-radial-gradient(circle, #d9d9d9 0%, #fff 100%);
+  background-image:         radial-gradient(circle, #d9d9d9 0%, #fff 100%);
+}
+.blockquote {
+  width: 75%;
+  margin: 1.5em 10px;
+  padding: .5em 10px;
+  border-left: 10px solid #ccc;
+  background: #f9f9f9;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.blockquote:before {
+  margin-right: .25em;
+  font-size: 4em;
+  line-height: .1em;
+  color: #ccc;
+  content: open-quote;
+  vertical-align: -.4em;
+}
+.blockquote p {
+  display: inline;
+}
+.large {
+  font-size: 120%;
+}
+.s-large {
+  font-size: 150%;
+}
+.m-large {
+  font-size: 200%;
+}
+.x-large {
+  font-size: 300%;
+}
+.small {
+  font-size: 50%;
+}
+.s-small {
+  font-size: 80%;
+}
+.m-small {
+  font-size: 70%;
+}
+.title {
+  font-size: 120%;
+}
+.loading {
+  margin-right: 70px;
+}
+.loading:after {
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+          animation: ellipsis steps(4, end) 900ms infinite;
+  vertical-align: bottom;
+}
+@-webkit-keyframes ellipsis {
+  to {
+    width: 20px;
+  }
+}
+@keyframes ellipsis {
+  to {
+    width: 20px;
+  }
+}
