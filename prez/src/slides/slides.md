@@ -166,14 +166,33 @@ class: center, middle, bg-black, white
 # Démo !
 
 .pull-left[
+# <i class="fa fa-wifi fa-2x green"></i>
+## BLOCKCHAIN_AP
+
 # <i class="fa fa-volume-up fa-2x green"></i>
-## Activez le son de votre smartphone
+## Activez le son
 ]
 
 .pull-right[
+# <i class="fa fa-sign-out fa-2x green"></i>
+## Tuez l'app
+
 # <i class="fa fa-hand-paper-o fa-2x green"></i>
-## Levez la main quand message reçu
+## Levez la main
 ]
+
+---
+class: center, middle, bg-black, white
+
+# Quelques défis
+
+## Energie
+
+## Volumétrie
+
+## Stabilité
+
+## Identité
 
 ---
 class: bg-black, white, middle
@@ -188,7 +207,7 @@ class: bg-black, white, middle
 
 ## <i class="fa fa-arrow-right gray"></i> Gérer les comptes
 
-## <i class="fa fa-arrow-right gray"></i> Interagir avec la Blockchain au travers de l'API Ethereum-Android
+## <i class="fa fa-arrow-right gray"></i> Interagir avec la Blockchain et l'API Ethereum-Android
 
 ---
 class: center, middle, bg-black, white
