@@ -55,15 +55,33 @@ public class ReadActivity extends AppCompatActivity implements EthereumService.E
 
 
             new BlockFilter(application.ethereumjava.eth).watch()
-                    .flatMap(blockHash -> application.ethereumjava.eth.getBlock(Hash.valueOf(blockHash), Transaction.class))
+                    // Observable<Block<Hash>>
+                    .flatMap(blockHash ->
+                            application.ethereumjava.eth.getBlock(
+                                    Hash.valueOf(blockHash), Transaction.class
+                            )
+                    )
+
+
+                    // Observable<Transaction>
                     .flatMap(block -> Observable.from(block.transactions))
+
+
+                    // Observable<Transaction>
+                    .filter(transaction ->
+                        return transaction.input != null && transaction.input.length() > 2
+                    )
+
+
                     .observeOn(AndroidSchedulers.mainThread())
+
+
                     .subscribe(transaction -> {
-                        if( transaction.input != null && transaction.input.length() > 2) { // No input is '0x'
-                            Log.d(ReadActivity.class.getSimpleName(), "CONTENT : "+transaction.input);
-                            lastMsgView.setText(SolidityUtils.hexToAscii(transaction.input));
-                            player.start();
-                        }
+                        Log.d(ReadActivity.class.getSimpleName(), "CONTENT : "+transaction.input);
+
+                        lastMsgView.setText(SolidityUtils.hexToAscii(transaction.input));
+
+                        player.start();
                     });
 
     }
