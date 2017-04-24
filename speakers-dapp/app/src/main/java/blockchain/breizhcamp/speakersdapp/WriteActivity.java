@@ -77,7 +77,6 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
         TransactionRequest tx = new TransactionRequest(account,account);
         tx.setDataHex(SolidityUtils.toHex(message));
         application.ethereumjava.eth.sendTransaction(tx);
-        //TODO ethereumjava ajouter méthode de notification onMined
     }
 
     class MessageTextWatcher implements TextWatcher{

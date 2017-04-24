@@ -35,10 +35,10 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.sqli:ethereum-android:+@aar'
-    compile 'com.sqli:android-geth:+@aar'
-    compile 'com.sqli:ethereum-java-core:+'
     compile 'ethereumandroid:geth:1.5.0-unstable'
+    compile 'com.sqli:ethereum-android:0.1.20170320@aar'
+    compile 'com.sqli:android-geth:0.1.20170320@aar'
+    compile 'com.sqli:ethereum-java-core:0.1.20170320'
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
 }
