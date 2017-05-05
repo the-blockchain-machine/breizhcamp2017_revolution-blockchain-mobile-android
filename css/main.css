@@ -1,5 +1,7 @@
-@import "font-awesome-4.7.0/css/font-awesome.min.css";
-@import "fonts/fonts.css";
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic");
 body {
   font-family: "Droid Serif";
 }
@@ -174,9 +176,9 @@ code {
 .bg-red {
   background-color: #ff4943;
 }
-.bg-black {
-  background-image: -webkit-radial-gradient(circle, #595959 0%, #000 100%);
-  background-image:         radial-gradient(circle, #595959 0%, #000 100%);
+.bg-black,
+.dlecan {
+  background-color: #000;
 }
 .bg-blue {
   background-color: #15aaff;
@@ -186,10 +188,6 @@ code {
 }
 .bg-gray {
   background-color: #787878;
-}
-.bg-white {
-  background-image: -webkit-radial-gradient(circle, #d9d9d9 0%, #fff 100%);
-  background-image:         radial-gradient(circle, #d9d9d9 0%, #fff 100%);
 }
 .blockquote {
   width: 75%;
@@ -225,34 +223,6 @@ code {
 .small {
   font-size: 50%;
 }
-.s-small {
-  font-size: 80%;
-}
-.m-small {
-  font-size: 70%;
-}
 .title {
   font-size: 120%;
-}
-.loading {
-  margin-right: 70px;
-}
-.loading:after {
-  display: inline-block;
-  overflow: hidden;
-  width: 0;
-  content: "\2026"; /* ascii code for the ellipsis character */
-  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
-          animation: ellipsis steps(4, end) 900ms infinite;
-  vertical-align: bottom;
-}
-@-webkit-keyframes ellipsis {
-  to {
-    width: 20px;
-  }
-}
-@keyframes ellipsis {
-  to {
-    width: 20px;
-  }
 }
