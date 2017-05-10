@@ -1,5 +1,13 @@
 # BOOTNODE
 
+Fonctionne avec Geth < 1.6
+
+Lien téléchargement 
+* [Geth 1.5.9 64-bit](https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.5.9-a07539fb.tar.gz) 
+* [Autres versions](https://geth.ethereum.org/downloads/)
+
+```export PATH=$(pwd):$PATH```
+
 ## Init de la Blockchain privée
 
     ./initBootnode.sh

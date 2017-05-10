@@ -106,8 +106,8 @@ public class WriteActivity extends AppCompatActivity implements EthereumService.
     public void onEthereumServiceReady() {
 
             Observable.just(true)
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(b -> progressBar.setVisibility(ProgressBar.INVISIBLE));
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(b -> progressBar.setVisibility(ProgressBar.INVISIBLE));
 
 
     }
