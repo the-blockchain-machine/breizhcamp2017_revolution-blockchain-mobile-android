@@ -1,5 +1,10 @@
 #!/bin/bash
 
+DIR=`dirname "$0"`
+export PATH=$DIR/geth:$PATH
+VERSION=`geth version | grep ^Version:`
+echo -e "\e[31mGeth $VERSION\e[0m"
+
 geth \
     --datadir node1 \
     --networkid 100 \
@@ -12,4 +17,4 @@ geth \
     --autodag \
     --preload ./mine.js \
     --ipcdisable \
-    console 
+    console

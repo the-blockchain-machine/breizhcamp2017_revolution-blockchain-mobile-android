@@ -1,5 +1,10 @@
 #!/bin/bash
 
+DIR=`dirname "$0"`
+export PATH=$DIR/geth:$PATH
+VERSION=`geth version | grep ^Version:`
+echo -e "\e[31mGeth $VERSION\e[0m"
+
 echo '################'
 echo '## clean dirs ##'
 echo '################'
